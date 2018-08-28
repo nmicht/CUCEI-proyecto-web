@@ -19,6 +19,7 @@ Ambas aplicaciones deberán ser publicadas como software libre en algún servici
 ## Descripción Técnica
 1. Tanto la aplicación web así como el API debe estar montados en un servidor con SSL y con dominio público.
 1. El API deberá ser un subdominio del dominio de la aplicación.
+1. Todo el código escrito javascript tanto en frontend así como en NodeJS deberá usar ES6, 2015.
 1. API Restful en NodeJS con ruteo CRUD para cada una de las entidades principales del proyecto.
 1. Las rutas manejan pretty urls, es decir, son textos claros los cuales redireccionan al identificador de la entidad en cuestión.
 1. Respuestas del API con páginado, uso de filtros múltiples opcionales y ordenado definido.
@@ -46,6 +47,9 @@ Ambas aplicaciones deberán ser publicadas como software libre en algún servici
 1. El usuario debe poder subir una nueva foto a su perfil arrastrando la foto desde su dispositivo hacia el sitio web.
 1. En el diseño de la aplicación web deben existir elementos tamaño fixed and full width responsivos al dispositivo.
 1. El proyecto debe tener un README completo, claro y con todos los detalles tanto para contribuidores como para usuarios de la aplicación.
+1. El código de javascript deberá basarse en la guía de estilos de [AirBnB](https://github.com/airbnb/javascript)
+1. El CSS y/o SASS deberá cumplir con la guía de estilos definida por el grupo
+1. El HTML deberá basarse en la guía de estilos de [Google](https://google.github.io/styleguide/htmlcssguide.html) y aprobar la validación de [W3C](https://validator.w3.org/)
 
 
 
@@ -55,6 +59,8 @@ Esta es una lista de temáticas que aunque no son requeridas para el proyecto, s
 1. Unit Test para el API
 1. API Docs con live testing
 1. Progressive Web App
+1. Integración continua
+1. JSON Schema
 
 
 
