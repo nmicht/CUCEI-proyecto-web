@@ -55,4 +55,8 @@ app.post('/users', (req, res) => {
   res.send(json);
 });
 
+app.put('/users/:userId', (req, res) => {
+  res.send('editado lindo');
+});
+
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
